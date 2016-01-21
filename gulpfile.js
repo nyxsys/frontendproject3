@@ -20,7 +20,7 @@ gulp.task('compress', function () {
     .pipe(stylus({
       compress: true
     }))
-    .pipe(gulp.dest('./css/build'));
+    .pipe(gulp.dest('./'));
 });
 
 
@@ -28,7 +28,7 @@ gulp.task('compress', function () {
 gulp.task('linenos', function () {
   gulp.src('./stylus/linenos.styl')
     .pipe(stylus({linenos: true}))
-    .pipe(gulp.dest('./css/build'));
+    .pipe(gulp.dest('./'));
 });
 
 // Include css
@@ -48,7 +48,7 @@ gulp.task('sourcemaps-inline', function () {
     .pipe(sourcemaps.init())
     .pipe(stylus())
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./css/build'));
+    .pipe(gulp.dest('./'));
 });
 
 // External sourcemaps
@@ -57,7 +57,7 @@ gulp.task('sourcemaps-external', function () {
     .pipe(sourcemaps.init())
     .pipe(stylus())
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('./css/build'));
+    .pipe(gulp.dest('./'));
 });
 
 // Default gulp task to run
