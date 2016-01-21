@@ -3,9 +3,6 @@ var gulp = require('gulp');
 var stylus = require('gulp-stylus');
 var nib = require('nib');
 
-// include, if you want to work with sourcemaps
-var sourcemaps = require('gulp-sourcemaps');
-
 // Get one .styl file and render
 gulp.task('one', function () {
   gulp.src('./stylus/style.styl')
