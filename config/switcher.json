@@ -13,6 +13,13 @@
             ["#zen-intro", "column-2-3"],
             ["#zen-supporting", "column-1-3"],
             [".page-wrapper", "relative"]
+        ],
+        [
+            ["header", "text-center"],
+            ["#zen-summary", "text-center"]
+        ],
+        [
+            
         ]
     ]
 }

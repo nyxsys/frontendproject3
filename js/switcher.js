@@ -1,5 +1,5 @@
 //Eek a global variable
-var currentStyleIndex = -1;
+var currentStyleIndex = 0;
 
 loadJSON("config/switcher.json", function(data){
     var decoded = JSON.parse(data);
@@ -9,7 +9,6 @@ loadJSON("config/switcher.json", function(data){
 function setupSwitcher(styles){
     
     var removeStylePair = function(aPair) {
-        console.log(aPair);
         Array.prototype.forEach.call(document.querySelectorAll(aPair[0]), function($el) {
             $el.classList.remove(aPair[1]);
         });
