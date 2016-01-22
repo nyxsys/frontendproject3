@@ -17,8 +17,15 @@
         [
             [".page-wrapper", "wrapper"],
             ["header", "page-title"],
-            ["#zen-explanation", "column-1-2"],
-            ["#zen-participation", "column-2-2"]
+            ["header", "column-1-1"],
+            ["#zen-summary", "column-1-1"],
+            ["#zen-preamble", "column-1-2"],
+            ["#zen-explanation", "column-2-2"],
+            ["#zen-participation", "column-1-2"],
+            ["#zen-benefits", "column-2-2"],
+            ["#zen-requirements", "column-1-1"],
+            [".sidebar", "column-1-1"],
+            ["footer", "column-1-1"]
         ],
         [
             
