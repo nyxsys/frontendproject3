@@ -1,5 +1,5 @@
 //Eek a global variable
-var currentStyleIndex = 0;
+var currentStyleIndex = -1;
 
 loadJSON("config/switcher.json", function(data){
     var decoded = JSON.parse(data);
@@ -29,6 +29,4 @@ function setupSwitcher(styles){
     }
     
     document.body.addEventListener('click', nextStyle);
-    
-    nextStyle()
 }

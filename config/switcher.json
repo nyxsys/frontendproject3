@@ -16,7 +16,9 @@
         ],
         [
             [".page-wrapper", "wrapper"],
-            ["header", "page-title"]
+            ["header", "page-title"],
+            ["#zen-explanation", "column-1-2"],
+            ["#zen-participation", "column-2-2"]
         ],
         [
             
