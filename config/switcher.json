@@ -32,6 +32,14 @@
                 [".page-wrapper", "wrapper"]
             ]
         ],
+        "fonts" : [
+            [
+                ["body", "times-font"]
+            ],
+            [
+                ["body", "comic-font"]
+            ]
+        ],
         "colors" : [
             [
                 
