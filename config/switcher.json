@@ -15,8 +15,8 @@
             [".page-wrapper", "relative"]
         ],
         [
-            ["header", "text-center"],
-            ["#zen-summary", "text-center"]
+            [".page-wrapper", "wrapper"],
+            ["header", "page-title"]
         ],
         [
             

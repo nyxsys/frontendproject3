@@ -29,4 +29,6 @@ function setupSwitcher(styles){
     }
     
     document.body.addEventListener('click', nextStyle);
+    
+    nextStyle()
 }
