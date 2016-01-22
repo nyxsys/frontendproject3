@@ -1,34 +1,88 @@
 {
-    "styles" : [
-        [
-            ["p", "rounded"],
-            ["p", "thick-border"],
-            ["aside", "column-1-3"],
-            ["#zen-intro", "column-2-3"],
-            ["#zen-supporting", "column-3-3"],
-            [".page-wrapper", "relative"]
+    "styles" : {
+        "layouts" : [
+            [
+                ["header", "page-title"],
+                ["header", "column-1-1"],
+                ["#zen-summary", "column-1-1"],
+                ["#zen-preamble", "column-1-2"],
+                ["#zen-explanation", "column-2-2"],
+                ["#zen-participation", "column-1-2"],
+                ["#zen-benefits", "column-2-2"],
+                ["#zen-requirements", "column-1-1"],
+                [".sidebar", "column-1-1"],
+                ["footer", "column-1-1"]
+            ],
+            [
+                ["header", "page-title"],
+                ["header", "column-1-1"]
+            ],
+            [
+                ["#zen-participation", "column-1-2"],
+                ["#zen-benefits", "column-2-2"],
+                ["#zen-requirements", "column-1-1"],
+                [".sidebar", "column-1-1"],
+                ["footer", "column-1-1"]
+            ]
         ],
-        [
-            ["aside", "column-3-3"],
-            ["#zen-intro", "column-2-3"],
-            ["#zen-supporting", "column-1-3"],
-            [".page-wrapper", "relative"]
+        "page-margins" : [
+            [
+            ],
+            [
+                [".page-wrapper", "wrapper"]
+            ]
         ],
-        [
-            [".page-wrapper", "wrapper"],
-            ["header", "page-title"],
-            ["header", "column-1-1"],
-            ["#zen-summary", "column-1-1"],
-            ["#zen-preamble", "column-1-2"],
-            ["#zen-explanation", "column-2-2"],
-            ["#zen-participation", "column-1-2"],
-            ["#zen-benefits", "column-2-2"],
-            ["#zen-requirements", "column-1-1"],
-            [".sidebar", "column-1-1"],
-            ["footer", "column-1-1"]
+        "colors" : [
+            [
+                
+                ["body", "background-orange"],
+                ["h1", "purple"],
+                ["h2", "pink"]
+            ],
+            [
+                ["body", "background-purple"],
+                ["h1", "orange"],
+                ["h3", "pink"]
+            ],
+            [
+                ["h1", "orange"],
+                ["h2", "purple"],
+                ["h3", "pink"]
+            ]
         ],
-        [
-            
+        "h1" : [
+            [
+            ],
+            [
+                ["h1", "thick-border"]
+            ],
+            [
+                ["h1", "thick-border"],
+                ["h1", "rounded"]
+            ]
+        ],
+        "h2" : [
+            [
+            ],
+            [
+                ["h2", "thick-border"]
+            ],
+            [
+                ["h2", "thick-border"],
+                ["h2", "rounded"]
+            ]
+        ],
+        "h3" : [
+            [
+            ],
+            [
+                ["h3", "thick-border"]
+                
+            ],
+            [
+                ["h3", "thick-border"],
+                ["h3", "rounded"]
+            ]
         ]
-    ]
+    }
 }
