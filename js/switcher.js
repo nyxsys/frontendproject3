@@ -6,6 +6,35 @@ loadJSON("config/switcher.json", function(data){
     setupSwitcher(decoded.styles);
 });
 
+//FadeOut and In taken from http://www.chrisbuttery.com/articles/fade-in-fade-out-with-javascript/
+// fade out
+function fadeOut(el,callback){
+  el.style.opacity = 1;
+
+  (function fade() {
+    if ((el.style.opacity -= .1) < 0) {
+      el.style.display = "none";
+      callback();
+    } else {
+      requestAnimationFrame(fade);
+    }
+  })();
+}
+
+// fade in
+function fadeIn(el, display){
+  el.style.opacity = 0;
+  el.style.display = display || "block";
+
+  (function fade() {
+    var val = parseFloat(el.style.opacity);
+    if (!((val += .1) > 1)) {
+      el.style.opacity = val;
+      requestAnimationFrame(fade);
+    }
+  })();
+}
+
 function randIntRange(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -22,6 +51,10 @@ function setupSwitcher(categories){
             $el.classList.add(aPair[1]);
         });
     }
+    var change = function(){
+      fadeOut(document.body,pickStyle);
+    }
+    
     
     var pickStyle = function() {
         for (var style in categories) {
@@ -34,7 +67,14 @@ function setupSwitcher(categories){
                 prevStyles[style] = randInt;
                 styleCategory[randInt].forEach(applyStylePair);
         }
+
+        setTimeout(function(){
+            fadeIn(document.body);
+        },500)
+        
+
+
     }
     
-    document.body.addEventListener('click', pickStyle);
+    document.body.addEventListener('click', change);
 }
