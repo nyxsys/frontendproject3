@@ -1,7 +1,7 @@
 //Add layout rules here
 @import 'nib';
 
-.wrapper
+.page-wrapper
   margin-top: 2%
   margin-left: 8%
   margin-right: 8%
@@ -25,26 +25,25 @@ indent(n)
 .relative
   display relative
   
-.column-1-2
+.column
   display: block
   float: left
   position: relative
+  
+.column-1-2
+  @extend .column
   width: 48%
   padding-right: 1%
   padding-left: 1%
 
 .column-2-2
-  display: block
-  float: left
-  position: relative
+  @extend .column
   width: 48%
   padding-right: 1%
   padding-left: 1%
 
 .column-1-1
-  display: block
-  float: left
-  position: relative
+  @extend .column
   width: 98%
   padding-left: 1%
   padding-right: 1%

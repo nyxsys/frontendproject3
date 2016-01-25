@@ -3,96 +3,116 @@
         "layouts" : [
             [
                 ["header", "page-title"],
+                ["header", "column"],
                 ["header", "column-1-1"],
+                ["#zen-summary", "column"],
                 ["#zen-summary", "column-1-1"],
+                ["#zen-preamble", "column"],
                 ["#zen-preamble", "column-1-2"],
+                ["#zen-explanation", "column"],
                 ["#zen-explanation", "column-2-2"],
+                ["#zen-participation", "column"],
                 ["#zen-participation", "column-1-2"],
+                ["#zen-benefits", "column"],
                 ["#zen-benefits", "column-2-2"],
+                ["#zen-requirements", "column"],
                 ["#zen-requirements", "column-1-1"],
+                [".sidebar", "column"],
                 [".sidebar", "column-1-1"],
+                ["footer", "column"],
                 ["footer", "column-1-1"]
             ],
             [
                 ["header", "page-title"]
             ],
             [
-                ["#zen-participation", "column-1-2"],
-                ["#zen-benefits", "column-2-2"],
+                ["header", "page-title"],
+                ["header", "column"],
+                ["header", "column-1-1"],
+                ["#zen-summary", "column"],
+                ["#zen-summary", "column-1-1"],
+                ["#zen-preamble", "column"],
+                ["#zen-preamble", "column-1-1"],
+                ["#zen-explanation", "column"],
+                ["#zen-explanation", "column-1-2"],
+                ["#zen-participation", "column"],
+                ["#zen-participation", "column-2-2"],
+                ["#zen-benefits", "column"],
+                ["#zen-benefits", "column-1-1"],
+                ["#zen-requirements", "column"],
                 ["#zen-requirements", "column-1-1"],
+                [".sidebar", "column"],
                 [".sidebar", "column-1-1"],
+                ["footer", "column"],
                 ["footer", "column-1-1"]
-            ]
-        ],
-        "page-margins" : [
-            [
-                [".page-wrapper", "wrapper"]
             ]
         ],
         "fonts" : [
             [
+                ["body", "arial-font"]
             ],
-            [
-                ["body", "times-font"]
-            ],
-            [
-                ["body", "comic-font"]
-            ]
-        ],
-        "colors" : [
             [
                 
-                ["body", "background-green"],
-                [".page-wrapper", "background-white"],
-                ["h1", "purple"],
-                ["h2", "pink"]
+                ["body", "futura-font"]
             ],
             [
-                ["body", "background-blue"],
-                [".page-wrapper", "background-white"],
-                ["h1", "orange"],
-                ["h3", "pink"]
+                
+                ["body", "helvetica-font"]
             ],
             [
-                ["body", "background-mountains"],
-                [".page-wrapper", "background-white"],
-                ["h1", "orange"],
-                ["h2", "purple"],
-                ["h3", "pink"]
+                ["body", "georgia-font"]
             ]
         ],
         "h1" : [
             [
             ],
             [
-                ["h1", "border"]
-            ],
-            [
-                ["h1", "border"],
-                ["h1", "rounded"]
+                ["h1", "bold"]
             ]
         ],
         "h2" : [
             [
             ],
             [
-                ["h2", "border"]
-            ],
-            [
-                ["h2", "border"],
-                ["h2", "rounded"]
+                ["h2", "bold"]
             ]
         ],
         "h3" : [
             [
             ],
             [
-                ["h3", "border"]
+                ["h3", "bold"]
+            ]
+        ],
+        "column" : [
+            [
                 
+            ]
+        ],
+        "colors" : [
+            [
+                ["body", "background-green"],
+                [".page-wrapper", "background-white"],
+                ["h1", "grey"],
+                ["h2", "grey"],
+                ["h3", "grey"],
+                ["a", "grey"]
             ],
             [
-                ["h3", "border"],
-                ["h3", "rounded"]
+                ["body", "background-blue"],
+                [".page-wrapper", "background-white"],
+                ["h1", "grey"],
+                ["h2", "grey"],
+                ["h3", "grey"],
+                ["a", "grey"]
+            ],
+            [
+                ["body", "background-yellow"],
+                [".page-wrapper", "background-white"],
+                ["h1", "blue"],
+                ["h2", "blue"],
+                ["h3", "blue"],
+                ["a", "blue"]
             ]
         ]
     }
