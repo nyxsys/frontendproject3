@@ -23,7 +23,25 @@
                 ["footer", "column-1-1"]
             ],
             [
-                ["header", "page-title"]
+                ["header", "page-title"],
+                ["header", "column"],
+                ["header", "column-1-1"],
+                ["#zen-summary", "column"],
+                ["#zen-summary", "column-1-1"],
+                ["#zen-preamble", "column"],
+                ["#zen-preamble", "column-1-1"],
+                ["#zen-explanation", "column"],
+                ["#zen-explanation", "column-1-1"],
+                ["#zen-participation", "column"],
+                ["#zen-participation", "column-1-1"],
+                ["#zen-benefits", "column"],
+                ["#zen-benefits", "column-1-1"],
+                ["#zen-requirements", "column"],
+                ["#zen-requirements", "column-1-1"],
+                [".sidebar", "column"],
+                [".sidebar", "column-1-1"],
+                ["footer", "column"],
+                ["footer", "column-1-1"]
             ],
             [
                 ["header", "page-title"],
@@ -86,7 +104,13 @@
         ],
         "column" : [
             [
-                
+            ],
+            [
+                [".column", "border"]
+            ],
+            [
+                [".column", "border"],
+                [".column", "rounded"]
             ]
         ],
         "colors" : [
