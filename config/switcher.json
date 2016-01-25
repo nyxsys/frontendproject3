@@ -111,6 +111,8 @@
         ],
         "column" : [
             [
+            ],
+            [
                 [".column", "border"],
                 [".column", "shadow"]
             ],
