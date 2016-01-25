@@ -26,8 +26,6 @@
         ],
         "page-margins" : [
             [
-            ],
-            [
                 [".page-wrapper", "wrapper"]
             ]
         ],
@@ -44,16 +42,20 @@
         "colors" : [
             [
                 
-                ["body", "background-orange"],
+                ["body", "background-green"],
+                [".page-wrapper", "background-white"],
                 ["h1", "purple"],
                 ["h2", "pink"]
             ],
             [
-                ["body", "background-purple"],
+                ["body", "background-blue"],
+                [".page-wrapper", "background-white"],
                 ["h1", "orange"],
                 ["h3", "pink"]
             ],
             [
+                ["body", "background-mountains"],
+                [".page-wrapper", "background-white"],
                 ["h1", "orange"],
                 ["h2", "purple"],
                 ["h3", "pink"]
@@ -63,10 +65,10 @@
             [
             ],
             [
-                ["h1", "thick-border"]
+                ["h1", "border"]
             ],
             [
-                ["h1", "thick-border"],
+                ["h1", "border"],
                 ["h1", "rounded"]
             ]
         ],
@@ -74,10 +76,10 @@
             [
             ],
             [
-                ["h2", "thick-border"]
+                ["h2", "border"]
             ],
             [
-                ["h2", "thick-border"],
+                ["h2", "border"],
                 ["h2", "rounded"]
             ]
         ],
@@ -85,11 +87,11 @@
             [
             ],
             [
-                ["h3", "thick-border"]
+                ["h3", "border"]
                 
             ],
             [
-                ["h3", "thick-border"],
+                ["h3", "border"],
                 ["h3", "rounded"]
             ]
         ]
