@@ -195,7 +195,9 @@
                 ["h1", "orange"],
                 ["h2", "orange"],
                 ["h3", "orange"],
-                ["a", "pink"]
+                ["a", "pink"],
+                [".column", "noshadow"],
+                [".page-wrapper","noshadow"]
             ],
             
             [
@@ -225,7 +227,7 @@
             [
                 ["body", "background-mountains"],
                 ["body", "white"],
-                ["a", "grey"],
+                ["a", "white"],
                 [".page-wrapper","background-thinblue"]
             ]
         ]
