@@ -167,7 +167,7 @@
             ],
             [
                 ["body", "background-blue"],
-                [".page-wrapper", "background-white"],
+                [".page-wrapper", "background-invert"],
                 ["h1", "grey"],
                 ["h2", "grey"],
                 ["h3", "grey"],
@@ -175,17 +175,17 @@
             ],
             [
                 ["body", "background-yellow"],
-                [".page-wrapper", "background-white"],
+                [".page-wrapper", "background-invert"],
                 ["h1", "blue"],
                 ["h2", "blue"],
                 ["h3", "blue"],
                 ["a", "blue"]
             ],
             [
-                [".page-wrapper","background-invert"]
-            ],
-            [
-                ["body", "background-mountains"]
+                ["body", "background-mountains"],
+                ["body", "white"],
+                ["a", "grey"],
+                [".page-wrapper","background-thinblue"]
             ]
         ]
 
