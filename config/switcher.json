@@ -287,6 +287,16 @@
                 ["a", "white"]
             ],
             [
+                ["body", "background-cherryblossoms"],
+                [".page-wrapper", "noshadow"],
+                [".column", "background-thingrey"],
+                ["h1", "white"],
+                ["h2", "white"],
+                ["h3", "white"],
+                ["body", "white"],
+                ["a", "white"]
+            ],
+            [
                 ["body", "background-tile"],
                 ["body", "background-black"],
                 [".page-wrapper", "noshadow"],
