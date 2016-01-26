@@ -69,6 +69,9 @@
             [
                 ["h1", "thick-border"],
                 ["h1", "rounded"]
+            ],
+            [
+                ["h1", "dotted"]    
             ]
         ],
         "h2" : [
@@ -80,6 +83,9 @@
             [
                 ["h2", "thick-border"],
                 ["h2", "rounded"]
+            ],
+            [
+                ["h2", "dotted"]    
             ]
         ],
         "h3" : [
@@ -92,7 +98,21 @@
             [
                 ["h3", "thick-border"],
                 ["h3", "rounded"]
+            ],
+            [
+                ["h3", "dotted"]    
             ]
-        ]
+        ],
+        "p" : [
+                [
+                ],
+                [
+                    ["p","invert"]
+                ],
+                [
+                    ["p", "dotted"]    
+                ]
+            
+            ]
     }
 }
