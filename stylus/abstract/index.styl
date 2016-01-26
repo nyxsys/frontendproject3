@@ -1,13 +1,27 @@
+
+.invert
+  color : inherit
+  filter: invert(100%)
+
+
 /* Borders */
 .rounded 
   border-radius 15px
+
+.thick-border
+  border 5px solid 
+  border-color inherit
 
 .border
   border 2px solid black
   
 .shadow
   box-shadow: 3px 3px 2px #888888
-  
+
+.dotted-border
+  border 5px dotted
+  border-color inherit
+
 .padded
   padding: 5px
   
@@ -34,10 +48,14 @@
 .blue
   color: #22264b
 
+
 .green
   color: #5a5c51
   
 /* Background Colors */
+
+.background-thinblue
+  background-color: hsla(180, 50%, 50%, 0.4)
 
 .background-yellow
   background-color: #e6cf8b
@@ -67,6 +85,9 @@
 .background-beige
   background-color: #c7ad88
   
+.background-invert
+  background-color : inherit
+  filter: invert(100%)
   
 /* Font Styles */
 .bold
