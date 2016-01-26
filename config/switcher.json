@@ -203,12 +203,13 @@
             [
                 ["body", "background-blue"],
                 [".page-wrapper", "background-invert"],
-                ["body", "grey"],
-                ["h1", "grey"],
-                ["h2", "grey"],
-                ["h3", "grey"],
-                ["a", "grey"]
+                ["body", "orange"],
+                ["h1", "orange"],
+                ["h2", "orange"],
+                ["h3", "orange"],
+                ["a", "pink"]
             ],
+            
             [
                 ["body", "background-yellow"],
                 [".page-wrapper", "background-invert"],
