@@ -130,10 +130,6 @@
                 ["h1", "bold"]
             ],
             [
-                ["h1", "thick-border"],
-                ["h1", "rounded"]
-            ],
-            [
                 ["h1", "dotted"]   
             ]
         ],
@@ -142,10 +138,6 @@
             ],
             [
                 ["h2", "bold"]
-            ],
-            [
-                ["h2", "thick-border"],
-                ["h2", "rounded"]
             ],
             [
                 ["h2", "dotted"]
@@ -158,10 +150,6 @@
 
             [ 
                 ["h3", "bold"]
-            ],
-            [
-                ["h3", "thick-border"],
-                ["h3", "rounded"]
             ],
             [
                 ["h3", "dotted"]    
