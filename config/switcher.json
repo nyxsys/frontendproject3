@@ -168,6 +168,7 @@
             [
                 ["body", "background-blue"],
                 [".page-wrapper", "background-invert"],
+                ["body", "grey"],
                 ["h1", "grey"],
                 ["h2", "grey"],
                 ["h3", "grey"],
@@ -180,6 +181,22 @@
                 ["h2", "blue"],
                 ["h3", "blue"],
                 ["a", "blue"]
+            ],
+            [
+                ["body", "background-yellow"],
+                [".page-wrapper", "background-white"],
+                ["h1", "blue"],
+                ["h2", "blue"],
+                ["h3", "blue"],
+                ["a", "blue"]
+            ],
+            [
+                ["body", "background-blue"],
+                [".page-wrapper", "background-white"],
+                ["h1", "grey"],
+                ["h2", "grey"],
+                ["h3", "grey"],
+                ["a", "grey"]
             ],
             [
                 ["body", "background-mountains"],
