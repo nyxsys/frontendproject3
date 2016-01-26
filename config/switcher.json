@@ -131,6 +131,9 @@
             ],
             [
                 ["h1", "dotted"]   
+            ],
+            [
+                ["h1", "text-center"]
             ]
         ],
         "h2" : [
@@ -141,6 +144,9 @@
             ],
             [
                 ["h2", "dotted"]
+            ],
+            [
+                ["h2", "text-center"]
             ]
 
         ],
@@ -153,14 +159,18 @@
             ],
             [
                 ["h3", "dotted"]    
+            ],
+            [
+                ["h3", "text-center"]
             ]
         ],
         "p" : [
                 [
                 ],
-                [
-                    ["p", "dotted"]    
-                ]
+
+            [
+                ["p", "text-center"]
+            ]
 
         ],
         "column" : [
@@ -246,6 +256,18 @@
             [
                 ["body", "background-mountains"],
                 [".page-wrapper", "background-bidoof"],
+                [".page-wrapper", "noshadow"],
+                [".column", "background-thinblue"],
+                ["p", "white"],
+                ["h1", "white"],
+                ["h2", "white"],
+                ["h3", "white"],
+                ["body", "white"],
+                ["a", "white"]
+            ],
+            [
+                ["body", "background-bidoof"],
+                [".page-wrapper", "noshadow"],
                 [".column", "background-thinblue"],
                 ["p", "white"],
                 ["h1", "white"],
@@ -290,14 +312,6 @@
                 ["h2", "white"],
                 ["h3", "white"],
                 ["a", "white"]
-            ],
-            [
-                [".column", "background-red"],
-                ["body", "black"],
-                ["h1", "grey"],
-                ["h2", "grey"],
-                ["h3", "grey"],
-                ["a", "grey"]
             ],
             [
                 [".column", "background-yellow"],
