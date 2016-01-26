@@ -207,7 +207,9 @@
                 ["h1", "blue"],
                 ["h2", "blue"],
                 ["h3", "blue"],
-                ["a", "blue"]
+                ["a", "blue"],
+                [".column", "noshadow"],
+                [".page-wrapper","noshadow"]
             ],
             [
                 ["body", "background-yellow"],
@@ -241,6 +243,21 @@
                 ["body", "background-mountains"],
                 [".page-wrapper", "background-bidoof"],
                 [".column", "background-thinblue"],
+                ["body", "white"],
+                ["a", "white"]
+            ],
+            [
+                ["body", "background-mountains"],
+                [".page-wrapper", "noshadow"],
+                [".column", "background-thinblue"],
+                ["body", "white"],
+                ["a", "white"]
+            ],
+            [
+                ["body", "background-tile"],
+                ["body", "background-black"],
+                [".page-wrapper", "noshadow"],
+                [".column", "background-thingrey"],
                 ["body", "white"],
                 ["a", "white"]
             ]
