@@ -179,15 +179,13 @@
             ]
 
         ],
+
+        
         "colors" : [
             [
                 ["body", "background-green"],
-                [".column", "background-orange"],
-                [".page-wrapper", "background-white"],
-                ["h1", "grey"],
-                ["h2", "grey"],
-                ["h3", "grey"],
-                ["a", "grey"]
+                [".page-wrapper", "background-white"]
+
             ],
             [
                 ["body", "background-blue"],
@@ -229,12 +227,18 @@
             ],
             [
                 ["body", "background-mountains"],
+                ["h1", "white"],
+                ["h2", "white"],
+                ["h3", "white"],
                 ["body", "white"],
                 ["a", "white"],
                 [".page-wrapper","background-thinblue"]
             ],
             [
                 ["body", "background-nyan"],
+                ["h1", "white"],
+                ["h2", "white"],
+                ["h3", "white"],
                 ["body", "white"],
                 ["a", "white"],
                 [".page-wrapper","background-thinblue"]
@@ -243,6 +247,10 @@
                 ["body", "background-mountains"],
                 [".page-wrapper", "background-bidoof"],
                 [".column", "background-thinblue"],
+                ["p", "white"],
+                ["h1", "white"],
+                ["h2", "white"],
+                ["h3", "white"],
                 ["body", "white"],
                 ["a", "white"]
             ],
@@ -250,6 +258,9 @@
                 ["body", "background-mountains"],
                 [".page-wrapper", "noshadow"],
                 [".column", "background-thinblue"],
+                ["h1", "white"],
+                ["h2", "white"],
+                ["h3", "white"],
                 ["body", "white"],
                 ["a", "white"]
             ],
@@ -258,9 +269,69 @@
                 ["body", "background-black"],
                 [".page-wrapper", "noshadow"],
                 [".column", "background-thingrey"],
+                ["h1", "white"],
+                ["h2", "white"],
+                ["h3", "white"],
                 ["body", "white"],
                 ["a", "white"]
             ]
+        ],
+        "column-color" : [
+            [
+            ],
+            [
+            ],
+            [
+            ],
+            [
+                [".column", "background-green"],
+                ["body", "white"],
+                ["h1", "white"],
+                ["h2", "white"],
+                ["h3", "white"],
+                ["a", "white"]
+            ],
+            [
+                [".column", "background-red"],
+                ["body", "black"],
+                ["h1", "grey"],
+                ["h2", "grey"],
+                ["h3", "grey"],
+                ["a", "grey"]
+            ],
+            [
+                [".column", "background-yellow"],
+                ["body", "black"],
+                ["p", "blue"],
+                ["h1", "blue"],
+                ["h2", "blue"],
+                ["h3", "blue"],
+                ["a", "blue"]
+            ],
+            [
+                [".column", "background-orange"],
+                ["body", "grey"],
+                ["p", "grey"],
+                ["h1", "grey"],
+                ["h2", "grey"],
+                ["h3", "grey"],
+                ["a", "grey"]    
+            ],
+            [
+                [".column", "background-thingrey"],
+                ["p", "white"],
+                ["body", "white"],
+                ["a", "white"]    
+            ],
+            [
+                [".column", "background-lightblue"],
+                ["body", "black"],
+                ["h1", "black"],
+                ["h2", "black"],
+                ["h3", "black"],
+                ["a", "grey"]   
+            ]
+
         ]
 
     }
