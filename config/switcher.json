@@ -136,9 +136,6 @@
                 [
                 ],
                 [
-                    ["p","invert"]
-                ],
-                [
                     ["p", "dotted"]    
                 ]
 
@@ -183,6 +180,12 @@
                 ["h2", "blue"],
                 ["h3", "blue"],
                 ["a", "blue"]
+            ],
+            [
+                [".page-wrapper","background-invert"]
+            ],
+            [
+                ["body", "background-mountains"]
             ]
         ]
 
