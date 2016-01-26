@@ -2,6 +2,7 @@
     "styles" : {
         "layouts" : [
             [
+                [".page-wrapper", "page-margins-med"],
                 ["header", "column"],
                 ["header", "column-1-1"],
                 ["#zen-summary", "column"],
@@ -19,9 +20,11 @@
                 [".sidebar", "column"],
                 [".sidebar", "column-1-1"],
                 ["footer", "column"],
-                ["footer", "column-1-1"]
+                ["footer", "column-1-1"],
+                ["footer", "text-center"]
             ],
             [
+                [".page-wrapper", "page-margins-med"],
                 ["header", "column"],
                 ["header", "column-1-1"],
                 ["#zen-summary", "column"],
@@ -39,9 +42,11 @@
                 [".sidebar", "column"],
                 [".sidebar", "column-1-1"],
                 ["footer", "column"],
-                ["footer", "column-1-1"]
+                ["footer", "column-1-1"],
+                ["footer", "text-center"]
             ],
             [
+                [".page-wrapper", "page-margins-med"],
                 ["header", "column"],
                 ["header", "column-1-1"],
                 ["#zen-summary", "column"],
@@ -59,7 +64,30 @@
                 [".sidebar", "column"],
                 [".sidebar", "column-1-1"],
                 ["footer", "column"],
-                ["footer", "column-1-1"]
+                ["footer", "column-1-1"],
+                ["footer", "text-center"]
+            ],
+            [
+                [".page-wrapper", "page-margins-small"],
+                ["header", "column"],
+                ["header", "column-1-1"],
+                ["#zen-summary", "column"],
+                ["#zen-summary", "column-1-3"],
+                ["#zen-preamble", "column"],
+                ["#zen-preamble", "column-2-3"],
+                ["#zen-explanation", "column"],
+                ["#zen-explanation", "column-3-3"],
+                ["#zen-participation", "column"],
+                ["#zen-participation", "column-1-2"],
+                ["#zen-benefits", "column"],
+                ["#zen-benefits", "column-2-2"],
+                ["#zen-requirements", "column"],
+                ["#zen-requirements", "column-1-1"],
+                [".sidebar", "column"],
+                [".sidebar", "column-1-1"],
+                ["footer", "column"],
+                ["footer", "column-1-1"],
+                ["footer", "text-center"]
             ]
         ],
         "wrapper" : [
@@ -70,6 +98,13 @@
             ],
             [
                 [".page-wrapper", "rounded"]
+            ]
+        ],
+        "header" : [
+            [
+            ],
+            [
+                ["header", "text-center"]
             ]
         ],
         "fonts" : [
