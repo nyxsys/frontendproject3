@@ -2,98 +2,127 @@
     "styles" : {
         "layouts" : [
             [
-                ["header", "page-title"],
+                ["header", "column"],
                 ["header", "column-1-1"],
+                ["#zen-summary", "column"],
                 ["#zen-summary", "column-1-1"],
+                ["#zen-preamble", "column"],
                 ["#zen-preamble", "column-1-2"],
+                ["#zen-explanation", "column"],
                 ["#zen-explanation", "column-2-2"],
+                ["#zen-participation", "column"],
                 ["#zen-participation", "column-1-2"],
+                ["#zen-benefits", "column"],
                 ["#zen-benefits", "column-2-2"],
+                ["#zen-requirements", "column"],
                 ["#zen-requirements", "column-1-1"],
+                [".sidebar", "column"],
                 [".sidebar", "column-1-1"],
+                ["footer", "column"],
                 ["footer", "column-1-1"]
             ],
             [
-                ["header", "page-title"],
-                ["header", "column-1-1"]
+                ["header", "column"],
+                ["header", "column-1-1"],
+                ["#zen-summary", "column"],
+                ["#zen-summary", "column-1-1"],
+                ["#zen-preamble", "column"],
+                ["#zen-preamble", "column-1-1"],
+                ["#zen-explanation", "column"],
+                ["#zen-explanation", "column-1-1"],
+                ["#zen-participation", "column"],
+                ["#zen-participation", "column-1-1"],
+                ["#zen-benefits", "column"],
+                ["#zen-benefits", "column-1-1"],
+                ["#zen-requirements", "column"],
+                ["#zen-requirements", "column-1-1"],
+                [".sidebar", "column"],
+                [".sidebar", "column-1-1"],
+                ["footer", "column"],
+                ["footer", "column-1-1"]
             ],
             [
-                ["#zen-participation", "column-1-2"],
-                ["#zen-benefits", "column-2-2"],
+                ["header", "column"],
+                ["header", "column-1-1"],
+                ["#zen-summary", "column"],
+                ["#zen-summary", "column-1-1"],
+                ["#zen-preamble", "column"],
+                ["#zen-preamble", "column-1-1"],
+                ["#zen-explanation", "column"],
+                ["#zen-explanation", "column-1-2"],
+                ["#zen-participation", "column"],
+                ["#zen-participation", "column-2-2"],
+                ["#zen-benefits", "column"],
+                ["#zen-benefits", "column-1-1"],
+                ["#zen-requirements", "column"],
                 ["#zen-requirements", "column-1-1"],
+                [".sidebar", "column"],
                 [".sidebar", "column-1-1"],
+                ["footer", "column"],
                 ["footer", "column-1-1"]
             ]
         ],
-        "page-margins" : [
+        "wrapper" : [
             [
             ],
             [
-                [".page-wrapper", "wrapper"]
+                [".page-wrapper", "shadow"]
+            ],
+            [
+                [".page-wrapper", "rounded"]
             ]
         ],
         "fonts" : [
             [
+                ["body", "arial-font"]
             ],
-            [
-                ["body", "times-font"]
-            ],
-            [
-                ["body", "comic-font"]
-            ]
-        ],
-        "colors" : [
             [
                 
-                ["body", "background-orange"],
-                ["h1", "purple"],
-                ["h2", "pink"]
+                ["body", "futura-font"]
             ],
             [
-                ["body", "background-purple"],
-                ["h1", "orange"],
-                ["h3", "pink"]
+                
+                ["body", "helvetica-font"]
             ],
             [
-                ["h1", "orange"],
-                ["h2", "purple"],
-                ["h3", "pink"]
+                ["body", "georgia-font"]
             ]
         ],
         "h1" : [
             [
             ],
             [
-                ["h1", "thick-border"]
+                ["h1", "bold"]
             ],
             [
                 ["h1", "thick-border"],
                 ["h1", "rounded"]
             ],
             [
-                ["h1", "dotted"]    
+                ["h1", "dotted"]   
             ]
         ],
         "h2" : [
             [
             ],
             [
-                ["h2", "thick-border"]
+                ["h2", "bold"]
             ],
             [
                 ["h2", "thick-border"],
                 ["h2", "rounded"]
             ],
             [
-                ["h2", "dotted"]    
+                ["h2", "dotted"]
             ]
+
         ],
         "h3" : [
             [
             ],
-            [
-                ["h3", "thick-border"]
-                
+
+            [ 
+                ["h3", "bold"]
             ],
             [
                 ["h3", "thick-border"],
@@ -112,7 +141,50 @@
                 [
                     ["p", "dotted"]    
                 ]
-            
+
+        ],
+        "column" : [
+            [
+            ],
+            [
+                [".column", "border"],
+                [".column", "shadow"]
+            ],
+            [
+                [".column", "border"]
+            ],
+            [
+                [".column", "border"],
+                [".column", "rounded"]
             ]
+
+        ],
+        "colors" : [
+            [
+                ["body", "background-green"],
+                [".page-wrapper", "background-white"],
+                ["h1", "grey"],
+                ["h2", "grey"],
+                ["h3", "grey"],
+                ["a", "grey"]
+            ],
+            [
+                ["body", "background-blue"],
+                [".page-wrapper", "background-white"],
+                ["h1", "grey"],
+                ["h2", "grey"],
+                ["h3", "grey"],
+                ["a", "grey"]
+            ],
+            [
+                ["body", "background-yellow"],
+                [".page-wrapper", "background-white"],
+                ["h1", "blue"],
+                ["h2", "blue"],
+                ["h3", "blue"],
+                ["a", "blue"]
+            ]
+        ]
+
     }
 }
