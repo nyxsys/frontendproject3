@@ -2,12 +2,20 @@
 @import 'nib';
 
 .page-wrapper
+  padding: 2%
+  clearfix()
+
+.page-margins-med
   margin-top: 2%
   margin-left: 8%
   margin-right: 8%
   margin-bottom: 2%
-  padding: 2%
-  clearfix()
+
+.page-margins-small
+  margin-top: 2%
+  margin-left: 2%
+  margin-right: 2%
+  margin-bottom: 2%
 
 //Mixins
 indent(n)
@@ -35,6 +43,10 @@ indent(n)
   margin-right: 1%
   padding: 8px
   
+.column-1-1
+  @extend .column
+  width: 98%
+  
 .column-1-2
   @extend .column
   width: 48%
@@ -43,6 +55,17 @@ indent(n)
   @extend .column
   width: 48%
 
-.column-1-1
+.column-1-3
   @extend .column
-  width: 98%
+  width: 31.3%
+
+.column-2-3
+  @extend .column
+  width: 31.3%
+
+.column-3-3
+  @extend .column
+  width: 31.3%
+  
+.text-center
+  text-align: center
