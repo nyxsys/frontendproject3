@@ -182,6 +182,7 @@
         "colors" : [
             [
                 ["body", "background-green"],
+                [".column", "background-orange"],
                 [".page-wrapper", "background-white"],
                 ["h1", "grey"],
                 ["h2", "grey"],
@@ -229,6 +230,19 @@
                 ["body", "white"],
                 ["a", "white"],
                 [".page-wrapper","background-thinblue"]
+            ],
+            [
+                ["body", "background-nyan"],
+                ["body", "white"],
+                ["a", "white"],
+                [".page-wrapper","background-thinblue"]
+            ],
+            [
+                ["body", "background-mountains"],
+                [".page-wrapper", "background-bidoof"],
+                [".column", "background-thinblue"],
+                ["body", "white"],
+                ["a", "white"]
             ]
         ]
 
